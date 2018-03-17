@@ -8,7 +8,7 @@ The project aims to find out if the retention rate for a puzzle game, **Cookie C
 ![Alt text](cc_gates.png?raw=true "Title")
 
 ## Dataset Overview
-In the dataset, we have the following attributes:
+In the dataset, I have the following attributes:
 
 - userid
 - version: AB groups. Our control is gate_30 and treatment is gate_40
@@ -27,6 +27,6 @@ Despite popular convention *The later the gate, the higher the retention rate*, 
 One possible explanation is that, being forced to be away from the game earlier at level 30 maybe helpful to prevent an user exhausted from the game to some extent. The surge of wanting to play after some time maybe stronger than keep playing it for a long time. Hence, it is crucial for the company to set an appropriate amount of wait time.
 
 ## Limitations and Future Steps
-One limitation is that, this data doesn't include demographics. Hence, the initial assignment of AB group may not be random enough. In the future, demographic data can be incorporated to run a more thorough AB test. From there, we can quantify the impact of gate for different groups of users.
+One limitation is that, this data doesn't include demographics. Hence, the initial assignment of AB group may not be random enough. In the future, demographic data can be incorporated to run a more thorough AB test. From there, I can quantify the impact of gate level for different groups of users.
 
-Moreover, in the future, we can test the appropriate duration for the wait time in order to maximize retention rate.
+Moreover, in the future, I can test the appropriate duration for the wait time in order to maximize retention rate.
