@@ -15,8 +15,7 @@ cnt = df.groupby('version').count()
 %matplotlib inline
 
 # Counting the number of players for each number of gamerounds 
-plot_df_full = df.groupby(["userid","sum_gamerounds"]).count().reset_index()
-plot_df = plot_df_full[["userid","sum_gamerounds"]]
+plot_df = df.groupby('sum_gamerounds')['userid'].count()
 
 # Plotting the distribution of players that played 0 to 100 game rounds
 ax = plot_df.head(100).plot(x="userid", y="sum_gamerounds")
