@@ -1,4 +1,4 @@
-# AB-Test-with-Cookie-Cats
+# AB Test with Cookie Cats
 
 This is a AB test project from *datacamp*. 
 
